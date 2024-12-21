@@ -2,9 +2,9 @@
 const delimiter = '\n'
 const inputArray = document.querySelectorAll('pre')[0].innerText.split(delimiter)
 
-console.log(inputArray)
 
 /***TESTING***/
+//console.log(inputArray)
 //const testArray = ['7 6 4 2 1', '1 2 7 8 9', '9 7 6 2 1', '1 3 2 4 5', '8 6 4 4 1', '1 3 6 7 9', '17 16 13 12 11 10 7 6'];
 
 console.log(countSafeReports(inputArray));
